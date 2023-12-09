@@ -12,15 +12,15 @@ Laravel
 TailwindCSS
 
 # how to intall
-1. Install Composer dependencies composer install
-2. Install npm dependencies npm install
+1. Install Composer dependencies "composer install"
+2. Install npm dependencies "npm install"
 3. Create a copy of your .env file cp .env.example .env
-4. Generate an app encryption key php artisan key:generate
-5. import database "socialgram" 
+4. Generate an app encryption key "php artisan key:generate"
+5. import database "socialgram.sql" 
 7. In the .env file, add database information to allow Laravel to connect to the database.
-8. Migrate the database php artisan migrate
-9. Run Laravel php artisan serve
-10. Run TailwindCSS npm run dev
+8. Migrate the database "php artisan migrate"
+9. Run Laravel "php artisan serve"
+10. Run TailwindCSS "npm run dev"
 11. Open http://localhost:8000 with your browser to see the result.
 
 # Account 
