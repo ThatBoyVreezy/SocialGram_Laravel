@@ -11,7 +11,7 @@ Build With
 Laravel
 TailwindCSS
 
-# how to intall
+# how to install
 1. Install Composer dependencies "composer install"
 2. Install npm dependencies "npm install"
 3. Create a copy of your .env file cp .env.example .env
