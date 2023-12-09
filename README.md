@@ -12,6 +12,20 @@ Laravel
 TailwindCSS
 
 # how to intsallation
-1. Langkah pertama
-2. Langkah kedua
-3. Langkah ketiga
+1. Install Composer dependencies composer install
+2. Install npm dependencies npm install
+3. Create a copy of your .env file cp .env.example .env
+4. Generate an app encryption key php artisan key:generate
+5. Create an empty database.
+6. In the .env file, add database information to allow Laravel to connect to the database.
+7. Migrate the database php artisan migrate
+8. Run Laravel php artisan serve
+9. Run TailwindCSS npm run dev
+10. Open http://localhost:8000 with your browser to see the result.
+
+# Account 
+email : vivan@social.com
+pass : vivan123
+
+## Made by
+VIVAN CENTRINO - 10121202
